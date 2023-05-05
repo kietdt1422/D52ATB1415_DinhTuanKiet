@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<storages>
+    <storage>
+        <id>1</id>
+        <name>Rau má loại 1 (xuất khẩu)</name>
+        <unit>Thùng</unit>
+        <quantity>36</quantity>
+        <price>36000</price>
+    </storage>
+    <storage>
+        <id>3</id>
+        <name>Rau muống (rồng xanh biển cả)</name>
+        <unit>Cây</unit>
+        <quantity>60</quantity>
+        <price>32000</price>
+    </storage>
+    <storage>
+        <id>4</id>
+        <name>Adamantium</name>
+        <unit>Kg</unit>
+        <quantity>5000</quantity>
+        <price>1410065407</price>
+    </storage>
+    <storage>
+        <id>6</id>
+        <name>Milo</name>
+        <unit>Vỉ</unit>
+        <quantity>350</quantity>
+        <price>2000</price>
+    </storage>
+    <storage>
+        <id>7</id>
+        <name>Sữa chua Vinamilk</name>
+        <unit>Vỉ</unit>
+        <quantity>400</quantity>
+        <price>15000</price>
+    </storage>
+    <storage>
+        <id>9</id>
+        <name>Đồ ăn vặt Hàn Quốc</name>
+        <unit>Gói</unit>
+        <quantity>14</quantity>
+        <price>5000</price>
+    </storage>
+    <storage>
+        <id>10</id>
+        <name>Xi măng nhập khẩu</name>
+        <unit>Bì</unit>
+        <quantity>1000</quantity>
+        <price>150000</price>
+    </storage>
+    <storage>
+        <id>11</id>
+        <name>Cham cheo son la</name>
+        <unit>Lit</unit>
+        <quantity>100</quantity>
+        <price>4000</price>
+    </storage>
+    <storage>
+        <id>12</id>
+        <name>Đá xuất khẩu</name>
+        <unit>Tấn</unit>
+        <quantity>1000</quantity>
+        <price>6000</price>
+    </storage>
+</storages>
