@@ -28,7 +28,10 @@ Chương trình lập trình bằng ngôn ngữ Java, sử dụng JDK 19, NetBea
 
 ![App Screenshot](https://i.ibb.co/zJJ5dqn/image.png )
 
-Ngoài ra còn có một form phụ để chỉnh sửa và thêm hàng
+![App Screenshot](https://i.ibb.co/BTyrGtY/image.png )
+
+Ngoài ra còn có 2 form phụ để chỉnh sửa, thêm hàng
+và biểu diễn thành biểu đồ
 ## Các chức năng của ứng dụng
 
  - Thêm, sửa, xóa, biểu thị hàng hóa thành bảng với các thuộc tính
@@ -42,6 +45,8 @@ Ngoài ra còn có một form phụ để chỉnh sửa và thêm hàng
 - Thống kê, tìm kiếm hàng hóa theo từng thuộc tính hàng hóa
 
 - Lưu dữ liệu thành file `.XML` hoặc xuất thành file `.xls`
+
+- Biểu diễn dữ liệu thành biểu đồ
 ## Hướng dẫn sử dụng ứng dụng
 - Cách chạy file
     -   
@@ -59,7 +64,7 @@ Ngoài ra còn có một form phụ để chỉnh sửa và thêm hàng
     ![App Screenshot](https://i.ibb.co/mqq1Dwj/image.png )
     - Dữ liệu kho hàng sẽ được hiện thị ở bảng chính, người dùng có thể thao tác thống kê, tìm kiếm dữ liệu hàng hóa theo từng thuộc tính 
     ![App Screenshot](https://i.ibb.co/S70B2Z7/image.png )
-    - Ngoài ra người dùng có thể xuất dữ liệu ra file `Excel`
+    - Ngoài ra người dùng có thể xuất dữ liệu ra file `Excel` hoặc biểu diễn dữ liệu thành biểu đồ thông qua nút ` Biểu đồ `
 
 ## Tác giả
 
@@ -70,5 +75,7 @@ Ngoài ra còn có một form phụ để chỉnh sửa và thêm hàng
 
 - https://github.com/BellaHa/JavaCode
 - https://github.com/DJ-Raven/raven-project
+
+
 
 

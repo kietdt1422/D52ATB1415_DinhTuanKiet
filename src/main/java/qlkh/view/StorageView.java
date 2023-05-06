@@ -68,6 +68,7 @@ public class StorageView extends javax.swing.JFrame {
         buttonGradient1 = new swing.button.ButtonGradient();
         searchButton1 = new swing.button.ButtonGradient();
         sortBtn = new swing.button.ButtonGradient();
+        ChartButton = new swing.button.ButtonGradient();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -241,6 +242,9 @@ public class StorageView extends javax.swing.JFrame {
         getContentPane().add(sortBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 90, 90, 30));
         sortBtn.setColor2(new Color(91,189,233));
         sortBtn.setColor1(new Color(91,189,233));
+
+        ChartButton.setLabel("Biểu đồ");
+        getContentPane().add(ChartButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 530, 140, 30));
 
         jLabel1.addHierarchyBoundsListener(new java.awt.event.HierarchyBoundsListener() {
             public void ancestorMoved(java.awt.event.HierarchyEvent evt) {
@@ -514,6 +518,9 @@ public class StorageView extends javax.swing.JFrame {
         delButton.addActionListener(listener);
     }
     
+    public void addChartListener(ActionListener listener) {
+        ChartButton.addActionListener(listener);
+    }
      public void addSortListener(ActionListener listener) {
         sortBtn.addActionListener(listener);
     }
@@ -574,6 +581,7 @@ public class StorageView extends javax.swing.JFrame {
      
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private swing.button.ButtonGradient ChartButton;
     private javax.swing.JButton addButton;
     private swing.button.ButtonGradient buttonGradient1;
     private javax.swing.ButtonGroup buttonGroup1;

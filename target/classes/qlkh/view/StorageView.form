@@ -344,6 +344,16 @@
         </Constraint>
       </Constraints>
     </Component>
+    <Component class="swing.button.ButtonGradient" name="ChartButton">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="Bi&#x1ec3;u &#x111;&#x1ed3;"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="180" y="530" width="140" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Events>
         <EventHandler event="ancestorResized" listener="java.awt.event.HierarchyBoundsListener" parameters="java.awt.event.HierarchyEvent" handler="jLabel1AncestorResized"/>

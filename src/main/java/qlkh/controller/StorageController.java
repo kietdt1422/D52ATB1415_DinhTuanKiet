@@ -15,6 +15,7 @@ import javax.swing.event.ListSelectionListener;
 import qlkh.dao.StorageDao;
 import qlkh.entity.Storage;
 import qlkh.utils.ExportarExcel;
+import qlkh.view.ChartView;
 import qlkh.view.EditView;
 import qlkh.view.StorageView;
 
@@ -26,10 +27,12 @@ public class StorageController {
     private StorageDao storageDao;
     private StorageView storageView;
     private EditView editView;
-
-    public StorageController(StorageView view, EditView eview) {
+    private ChartView chartView;
+            
+    public StorageController(StorageView view, EditView eview, ChartView cview) {
         this.storageView = view;
         this.editView = eview;
+        this.chartView = cview;
         editView.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         storageDao = new StorageDao();
         storageView.setEditView(editView);
@@ -44,6 +47,7 @@ public class StorageController {
         view.addSearchListener(new SearchListenner());
         view.addSearchCanceltener(new SCListenner());
         view.addToExcelListenner(new ToExcelListener());
+        view.addChartListener(new ChartListener());
     }
 
     public void showStorageView() {
@@ -133,6 +137,8 @@ public class StorageController {
         }
         
     }
+    
+    
     
     class ConfrimListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
@@ -282,5 +288,19 @@ public class StorageController {
             storageView.fillStorageFromSelectedRow();
             editView.callEdit();
         }
+    }
+    class ChartListener implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            chartView = new ChartView();
+            storageDao.sortStorageById();
+            stList = storageDao.getlistStorage();
+            storageView.showListStorage(stList);
+            chartView.setChartQuantity(stList);
+            chartView.setVisible(true);
+            
+        } 
+        
     }
 }

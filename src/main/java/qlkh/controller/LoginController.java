@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 
 import qlkh.dao.UserDao;
 import qlkh.entity.User;
+import qlkh.view.ChartView;
 import qlkh.view.EditView;
 import qlkh.view.LoginView;
 import qlkh.view.StorageView;
@@ -14,6 +15,7 @@ public class LoginController {
     private LoginView loginView;
     private StorageView storageView;
     private EditView editView;
+    private ChartView chartView;
     
     public LoginController(LoginView view) {
         this.loginView = view;
@@ -33,7 +35,8 @@ public class LoginController {
                 // nếu đăng nhập thành công, mở màn hình quản lý sinh viên
                 storageView = new StorageView();
                 editView = new EditView();
-                StorageController storageController = new StorageController(storageView, editView);
+                chartView = new ChartView();
+                StorageController storageController = new StorageController(storageView, editView, chartView);
                 storageController.showStorageView();
                 loginView.setVisible(false);
             } else {
