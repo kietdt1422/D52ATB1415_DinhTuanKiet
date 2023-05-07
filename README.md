@@ -50,9 +50,11 @@ và biểu diễn thành biểu đồ
 ## Hướng dẫn sử dụng ứng dụng
 - Cách chạy file
     -   
-     - B1: Gián nén file `.zip` 
-     - B2: Mở tệp giải nén bằng NetBeans 17 (Lưu ý chạy file test hoặc clean and build)
-     - B3: Chạy `App.java` trong `qlkh.app` package
+     - B1: Gián nén file `QuanLyKhoHang_D52ATB1415_DinhTuanKiet.zip` 
+     - B2: Mở folder `QLKH`
+     - B3: Chạy file `QLKH.jar`
+     
+     Lưu ý: Nếu muốn di chuyển file `QLKH.jar` cần phải di chuyển file `storage.xml` và để trong cùng một folder ứng dụng mới hoạt động, hoặc tạo ShortCut để sử dụng 
 
 - Hướng dẫn sử dụng
     -   
