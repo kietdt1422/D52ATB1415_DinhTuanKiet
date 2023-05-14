@@ -67,6 +67,7 @@ và biểu diễn thành biểu đồ
     - Dữ liệu kho hàng sẽ được hiện thị ở bảng chính, người dùng có thể thao tác thống kê, tìm kiếm dữ liệu hàng hóa theo từng thuộc tính (Lưu ý tìm kiếm và sắp xếp sẽ dùng cùng một combobox) 
     ![App Screenshot](https://i.ibb.co/S70B2Z7/image.png )
     - Ngoài ra người dùng có thể xuất dữ liệu ra file `Excel` hoặc biểu diễn dữ liệu thành biểu đồ thông qua nút ` Biểu đồ `
+    - Nếu người dùng muốn quay lại bảng ban đầu có thể ấn vào ` Hủy `
 
 ## Tác giả
 
